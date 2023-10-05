@@ -1,6 +1,6 @@
 import { ACTIONS } from "./App";
 
-export default function Button(dispatch, operation) {
+export default function Button({dispatch, operation}) {
   return (
     <button
       onClick={() =>
